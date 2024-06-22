@@ -1,8 +1,12 @@
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
+
+        //Ejercicio 1
         int [] numeros = new int [5];
 
         numeros[0] = 1;
@@ -15,7 +19,17 @@ public class Main {
         for (int i = 0; i < numeros.length; i++){
             suma += numeros[i];
         }
-        System.out.println(suma);
+        //System.out.println(suma);
+
+        //Ejercicio 2
+
+        String [] cadenas = {"Hola", "Mundo", "Java", "Programacion"};
+
+        for (int i = 0; i < cadenas.length; i++){
+            System.out.println("La cadena: " + cadenas[i] + " tiene una longitud de: " + cadenas[i].length());
+        }
+
+
 
 
 
