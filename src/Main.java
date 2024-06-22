@@ -53,6 +53,20 @@ public class Main {
 
         System.out.println(Arrays.deepToString(enterosBi));
 
+        //Ejercicio 5
+
+        int[] num = {1,2,3,4,5,6,7,8,9,10};
+
+        int max = num[0];
+
+        for (int i = 0; i < num.length; i++){
+            if (max < num[i]){
+                max = num[i];
+            }
+        }
+
+        System.out.println(max);
+
 
 
 
