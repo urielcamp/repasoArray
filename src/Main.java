@@ -35,9 +35,25 @@ public class Main {
 
         for (int i = 0; i < enteros.length; i++){
             if (enteros[i] % 2 == 0){
-                System.out.println(enteros[i]);
+                //System.out.println(enteros[i]);
             }
         }
+
+        //Ejercicio 4
+
+        int [][] enterosBi = new int [2][3];
+
+        enterosBi[0][0] = 1;
+        enterosBi[0][1] = 2;
+        enterosBi[0][2] = 3;
+        enterosBi[1][0] = 4;
+        enterosBi[1][1] = 5;
+        enterosBi[1][2] = 6;
+
+
+        System.out.println(Arrays.deepToString(enterosBi));
+
+
 
 
 
