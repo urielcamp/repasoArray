@@ -26,7 +26,17 @@ public class Main {
         String [] cadenas = {"Hola", "Mundo", "Java", "Programacion"};
 
         for (int i = 0; i < cadenas.length; i++){
-            System.out.println("La cadena: " + cadenas[i] + " tiene una longitud de: " + cadenas[i].length());
+            //System.out.println("La cadena: " + cadenas[i] + " tiene una longitud de: " + cadenas[i].length());
+        }
+
+        //Ejercicio 3
+
+        int [] enteros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+        for (int i = 0; i < enteros.length; i++){
+            if (enteros[i] % 2 == 0){
+                System.out.println(enteros[i]);
+            }
         }
 
 
